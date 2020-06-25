@@ -4,8 +4,9 @@
 ## Step 1: Download Tools 
 Before you start on your first experiment, let's download some tools.
 Go to the Advanced drawer and press ``||advanced:extentions||``. Search and click on the 'neopixel' extention.
+Look at the hint on the right to see what the extension looks like. 
 
-![neopizel image](https://user-images.githubusercontent.com/46551376/85745582-ceacb080-b6d3-11ea-96b2-48aca7aaf921.png)
+![neopixel image](https://user-images.githubusercontent.com/46551376/85745582-ceacb080-b6d3-11ea-96b2-48aca7aaf921.png)
 
 ## Step 2: On Start
 Let's add to the ``||basic:on start||`` block. Go to the Neopixels drawer and find the 
@@ -17,7 +18,7 @@ let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
 ```
 ## Step 3: Set the color to Red
 Let's add to the ``||basic: forever||`` block. Go to the Neopixels drawer and find the 
-``||Neopixels:show color||`` block and drag it into the ``||basic:forever||`` block.
+``||neopixels:show color||`` block and drag it into the ``||basic:forever||`` block.
 The LED strip should start as Red.
 ```blocks
 
