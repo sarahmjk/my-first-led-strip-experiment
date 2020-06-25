@@ -43,7 +43,18 @@ basic.forever(function () {
 ```
 ## Congratulations!
 Congratulations on making your First LED Strip Experiment!
+Click the hint button on the right to check your code. 
 If you have a @boardname@ connected, click ``|Download|`` to transfer your code and watch your LED change color!
+
+```blocks
+let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
+basic.forever(function () {
+    strip.showColor(neopixel.colors(NeoPixelColors.Red))
+    basic.pause(1000)
+    strip.showColor(neopixel.colors(NeoPixelColors.Blue))
+    basic.pause(2000)
+})
+```
 
 
 
