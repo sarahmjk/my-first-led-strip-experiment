@@ -5,6 +5,16 @@
 Before you start on your first experiment, let's download some tools.
 Go to the Advanced drawer and press ``||advanced:extentions||``. Search and click on the 'neopixel' extention.
 Look at the hint on the right to see what the extension looks like. 
+```ghost
+  strip.showColor(neopixel.colors(NeoPixelColors.Red))
+  let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
+  basic.pause(1000)
+  basic.forever(function () {
+})
+```
+```package
+neopixel=github:microsoft/pxt-neopixel
+```
 
 ![neopixel image](https://user-images.githubusercontent.com/46551376/85745582-ceacb080-b6d3-11ea-96b2-48aca7aaf921.png)
 
