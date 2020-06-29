@@ -16,7 +16,7 @@ There is an image of the extension in the hint section to help you.
 })
 ```
 ```package
-neopixel=github:microsoft/pxt-neopixel#0.7.3
+neopixel=github:microsoft/pxt-neopixel 0.7.3
 ```
 
 ![neopixel image](https://user-images.githubusercontent.com/46551376/85745582-ceacb080-b6d3-11ea-96b2-48aca7aaf921.png)
