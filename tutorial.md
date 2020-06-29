@@ -1,7 +1,7 @@
 
 # My First LED Strip Experiment
 
-## Before we get started: pt 1
+## Before we get started
 Before we start, here is a quick explination about the Neopixel extension. 
 
 Below we have provided the Neopixel blocks in the Neopixel drawer. 
@@ -16,7 +16,7 @@ There is an image of the extension in the hint section to help you.
 })
 ```
 ```package
-neopixel=github:microsoft/pxt-neopixel 0.7.3
+neopixel=github:microsoft/pxt-neopixel
 ```
 
 ![neopixel image](https://user-images.githubusercontent.com/46551376/85745582-ceacb080-b6d3-11ea-96b2-48aca7aaf921.png)
