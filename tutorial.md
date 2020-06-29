@@ -1,13 +1,5 @@
 
 # My First LED Strip Experiment
-
-## Before we get started
-Before we start, here is a quick explination about the Neopixel extension. 
-
-Below we have provided the Neopixel blocks in the Neopixel drawer. 
-If you would like to download the neopixel extentions in a new project, 
-go to the Advanced drawer and click on Extensions. You will be able to search for the "Neopixel" extension. 
-There is an image of the extension in the hint section to help you. 
 ```ghost
   strip.showColor(neopixel.colors(NeoPixelColors.Red))
   let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
@@ -19,7 +11,6 @@ There is an image of the extension in the hint section to help you.
 neopixel=github:microsoft/pxt-neopixel
 ```
 
-![neopixel image](https://user-images.githubusercontent.com/46551376/85745582-ceacb080-b6d3-11ea-96b2-48aca7aaf921.png)
 
 ## Step 1: On Start
 Let's begin! First, let's add to the ``||basic:on start||`` block. Go to the Neopixel drawer and find the 
@@ -85,6 +76,17 @@ basic.forever(function () {
     basic.pause(2000)
 })
 ```
+## Extension
+Here is a quick explination about the Neopixel extension. 
+
+For this tutorial, we have provided the Neopixel blocks in the Neopixel drawer. 
+If you would like to download the Neopixel extentions in a new project, 
+go to the Advanced drawer and click on Extensions. You will be able to search for the "Neopixel" extension. 
+There is an image of the extension in the hint section to help you. 
+
+
+![neopixel image](https://user-images.githubusercontent.com/46551376/85745582-ceacb080-b6d3-11ea-96b2-48aca7aaf921.png)
+
 
 
 
