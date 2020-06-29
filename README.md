@@ -1,5 +1,6 @@
 
 > Open this page at [https://sarahmjk.github.io/my-first-led-strip-experiment/](https://sarahmjk.github.io/my-first-led-strip-experiment/)
+// this is a tutorial for week 1
 
 ## Use as Extension
 
