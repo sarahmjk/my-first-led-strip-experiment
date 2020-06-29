@@ -35,7 +35,7 @@ Next, Let's add to the ``||basic: forever||`` block. Go to the Neopixels drawer 
 ``||neopixel:show color||`` block and drag it into the ``||basic:forever||`` block.
 The LED strip should start as ``red``.
 ```blocks
-
+let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
 basic.forever(function () {
     strip.showColor(neopixel.colors(NeoPixelColors.Red)
 })
@@ -46,7 +46,7 @@ basic.forever(function () {
 Next, add another ``||neopixel:show color||`` to the ``||basic:forever||`` block. 
 This block should turn the LED strip ``blue``.
 ```blocks
-
+let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
 basic.forever(function () {
     strip.showColor(neopixel.colors(NeoPixelColors.Red))
     strip.showColor(neopixel.colors(NeoPixelColors.Blue))
@@ -62,6 +62,7 @@ And after it turns ``blue``, ``2000`` milliseconds (ms) later, it should turn ba
 Remember that this is all occuring in a forever loop.
 
 ```blocks
+let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
 basic.forever(function () {
     strip.showColor(neopixel.colors(NeoPixelColors.Red))
     basic.pause(1000)
