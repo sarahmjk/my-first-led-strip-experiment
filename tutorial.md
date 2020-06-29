@@ -2,10 +2,12 @@
 # My First LED Strip Experiment
 
 ## Before we get started  
+Before we start, here is a quick explination about the Neopixel extension. 
+
 Below we have provided the Neopixel blocks in the Neopixel drawer. 
 If you would like to download the neopixels extentions in a new project, 
 go to the Advanced drawer and click on Extensions. You will be able to search for the "Neopixels" extension. 
-There is an image of the extension in the hint section. 
+There is an image of the extension in the hint section to help you. 
 ```ghost
   strip.showColor(neopixel.colors(NeoPixelColors.Red))
   let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
@@ -22,7 +24,7 @@ neopixel=github:microsoft/pxt-neopixel
 
 
 ## Step 1: On Start
-Let's add to the ``||basic:on start||`` block. Go to the Neopixels drawer and find the 
+Let's begin! First, let's add to the ``||basic:on start||`` block. Go to the Neopixels drawer and find the 
 ``||neopixels:set strip to||`` block and drag it into the ``||basic:on start||`` block.
 
 ```blocks
@@ -30,7 +32,7 @@ let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
 
 ```
 ## Step 2: Set the color to Red
-Let's add to the ``||basic: forever||`` block. Go to the Neopixels drawer and find the 
+Next, Let's add to the ``||basic: forever||`` block. Go to the Neopixels drawer and find the 
 ``||neopixels:show color||`` block and drag it into the ``||basic:forever||`` block.
 The LED strip should start as ``red``.
 ```blocks
@@ -40,8 +42,20 @@ basic.forever(function () {
 
 })
 ```
+## Step 3: Set to the color to Blue
+Next, add another ``||neopixels:show color||`` to the ``||basic:forever||`` block. 
+This block should turn the LED strip ``blue``.
+```blocks
 
-## Step 3: Set the color to Blue
+basic.forever(function () {
+    strip.showColor(neopixel.colors(NeoPixelColors.Red))
+    strip.showColor(neopixel.colors(NeoPixelColors.Blue))
+})
+```
+
+## Step 4: Add the pauses
+Now let's add the pauses, so that it changes colors from ``red`` to ``blue``. 
+First, the LED strip should start off as ``red``. 
 After ``||basic: pause (ms)||`` of ``10000`` milliseconds , ``||Neopixels:show color||`` should be set to ``blue``. 
 And after it turns ``blue``, ``2000`` milliseconds (ms) later, it should turn back to ``red``. 
 Remember that this is all occuring in a forever loop.
