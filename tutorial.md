@@ -10,11 +10,16 @@
 ```package
 neopixel=github:microsoft/pxt-neopixel
 ```
+## Welcome
 
+Let's make your First LED Strip Experiment! 
+The hint button on the right shows the correct code for each step. 
+Try to use the hints only when you are stuck! Good Luck!
 
 ## Step 1: On Start
 Let's begin! First, let's add to the ``||basic:on start||`` block. Go to the Neopixel drawer and find the 
-``||neopixel:set strip to||`` block and drag it into the ``||basic:on start||`` block.
+``||neopixel:set strip to||`` block and drag it into the ``||basic:on start||`` block. 
+This will initialize the 'strip' variable so that you can changes its properties (like its colors).
 
 ```blocks
 let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
