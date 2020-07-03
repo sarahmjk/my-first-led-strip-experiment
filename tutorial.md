@@ -21,7 +21,7 @@ Let's begin! First, let's add to the ``||basic:on start||`` block. Go to the Neo
 ``||neopixel:set strip to||`` block and drag it into the ``||basic:on start||`` block. 
 This will initialize the 'strip' variable so that you can changes its properties (like its colors). Make sure that the DigitalPin is set to ``P0`` and the number of LEDs is set to ``30``.
 
-Also, go ahead and change the name of th strip variable to any opther name you would like. Click on ``||variable:strip||`` and then click ``rename`` in the drop down. 
+Also, go ahead and change the name of th strip variable to any opther name you would like. Click on ``||variable:strip||`` and then click ``Rename variable`` in the drop down. 
 ```blocks
 let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
 
