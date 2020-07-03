@@ -19,9 +19,7 @@ Try to use the hints only when you are stuck! Good Luck!
 ## Step 1: On Start
 Let's begin! First, let's add to the ``||basic:on start||`` block. Go to the Neopixel drawer and find the 
 ``||neopixel:set strip to||`` block and drag it into the ``||basic:on start||`` block. 
-This will initialize the 'strip' variable so that you can changes its properties (like its colors).
-
-Make sure that the DigitalPin is set to ``P0`` and the number of LEDs is set to ``30``.
+This will initialize the 'strip' variable so that you can changes its properties (like its colors). Make sure that the DigitalPin is set to ``P0`` and the number of LEDs is set to ``30``.
 
 ```blocks
 let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
