@@ -8,9 +8,9 @@
 })
 ```
 ```package
-neopixel=github:microsoft/pxt-neopixel
+neopixel=github:microsoft/pxt-neopixel#v0.7.3
 ```
-## Welcome
+## Welcome @unplugg
 
 Let's make your First LED Strip Experiment! 
 The hint button on the right shows the correct code for each step. 
@@ -53,7 +53,7 @@ basic.forever(function () {
 ## Step 4: Add the pauses
 Now let's add the pauses, so that it changes colors from ``red`` to ``blue``. 
 First, the LED strip should start off as ``red``. 
-After ``||basic: pause (ms)||`` of ``10000`` milliseconds , ``||neopixel:show color||`` should be set to ``blue``. 
+After ``||basic: pause (ms)||`` of ``1000`` milliseconds , ``||neopixel:show color||`` should be set to ``blue``. 
 And after it turns ``blue``, ``2000`` milliseconds (ms) later, it should turn back to ``red``. 
 Remember that this is all occuring in a forever loop.
 
