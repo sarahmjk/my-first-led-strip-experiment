@@ -10,7 +10,7 @@
 ```package
 neopixel=github:microsoft/pxt-neopixel#v0.7.3
 ```
-## Welcome @unplugg
+## Welcome @unplugged
 
 Let's make your First LED Strip Experiment! 
 The hint button on the right shows the correct code for each step. 
