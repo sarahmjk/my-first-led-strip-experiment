@@ -28,7 +28,7 @@ let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
 
 ```
 
-The DigitalPin should be set to the pin name of the pin that you plugged the LED strip into. Makes sure they match! 
+The DigitalPin should be set to the pin name of the pin that you plugged the LED strip into. Make sure they match! 
 
 ## Step 2: Set the color to Red
 Next, Let's add to the ``||basic: forever||`` block. Go to the Neopixels drawer and find the 
