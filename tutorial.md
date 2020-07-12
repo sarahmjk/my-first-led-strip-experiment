@@ -30,7 +30,7 @@ let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
 ## Step 2: Set the color to Red
 Next, Let's add to the ``||basic: forever||`` block. Go to the Neopixels drawer and find the 
 ``||neopixel:show color||`` block and drag it into the ``||basic:forever||`` block.
-The LED strip should start as ``red`` and should also be set to ``blue``.
+Add two of these blocks. The LED strip should start as ``red`` and should also be set to ``blue``.
 
 ```blocks
 let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
