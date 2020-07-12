@@ -22,12 +22,13 @@ Let's begin! First, let's add to the ``||basic:on start||`` block. Go to the Neo
 This will initialize the ``||variables: strip||`` variable so that you can changes its properties (like its colors). 
 
 Make sure that the DigitalPin is set to ``P0`` and the number of LEDs is set to ``30``.
-#### ~ tutorialhint
-The DigitalPin should be set to the pin name of the pin that you plugged the LED strip into. Makes sure they match! 
+
 ```blocks
 let strip = neopixel.create(DigitalPin.P0, 30, NeoPixelMode.RGB)
 
 ```
+
+The DigitalPin should be set to the pin name of the pin that you plugged the LED strip into. Makes sure they match! 
 
 ## Step 2: Set the color to Red
 Next, Let's add to the ``||basic: forever||`` block. Go to the Neopixels drawer and find the 
